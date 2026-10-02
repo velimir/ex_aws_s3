@@ -43,7 +43,7 @@ defmodule ExAws.S3.Mixfile do
 
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:logger, xmerl: :optional]
     ]
   end
 
